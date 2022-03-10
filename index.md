@@ -6,3 +6,13 @@ This workshop will be held from Wednesday 18 May (noon) until Friday 20 May (noo
 In this workshop, we will try to find a consensus on a Knowledge Graph (KG) metadata scheme,
 demo and assess the available tools for such metadata capturing in a KG-compliant
 manner, and start applying these insights on actual KG datasets.
+
+## Organizers
+
+- Antoine Zimmermann (local organizer)
+- Michel Dumontier
+- Tobias Kuhn
+
+## Program
+
+To be announced soon.
