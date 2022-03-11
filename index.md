@@ -15,4 +15,19 @@ manner, and start applying these insights on actual KG datasets.
 
 ## Program
 
-To be announced soon.
+The program is still preliminary and subject to change:
+
+- Wednesday, 18 May 2022
+  - 12:00-14:00 lunch for those already present
+  - 14:00 opening and introduction
+  - 14:30-18:00 definition of challenges/tasks; working session
+- Thursday, 19 May 2022
+  - 9:00-12:00 working session
+  - 12:00-14:00 lunch
+  - 14:00 working session
+  - 17:00 social activity
+  - 20:00 workshop dinner
+- Friday, 20 May 2022
+  - 9:00-11:00 joint session
+  - 11:00 reporting
+  - 12:00 end of workshop
