@@ -13,6 +13,11 @@ manner, and start applying these insights on actual KG datasets.
 - Michel Dumontier
 - Tobias Kuhn
 
+## Venue
+
+This event will be held as a workshop with physical participation in Lyon, France.
+The precise location will be announced here shortly.
+
 ## Program
 
 The program is still preliminary and subject to change:
