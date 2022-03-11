@@ -1,7 +1,8 @@
 Metadata 4 DKG 2022
 ===================
 
-This workshop will be held from Wednesday 18 May (noon) until Friday 20 May (noon) in Lyon, France.
+This workshop is part of the [COST Action on Distributed Knowledge Graphs (DKG)](https://cost-dkg.eu/).
+It will be held from Wednesday 18 May until Friday 20 May in Lyon, France.
 
 In this workshop, we will try to find a consensus on a Knowledge Graph (KG) metadata scheme,
 demo and assess the available tools for such metadata capturing in a KG-compliant
