@@ -34,8 +34,8 @@ The program is still preliminary and subject to change:
 
 - Wednesday, 18 May 2022
   - 12:00-14:00 lunch for those already present
-  - 14:00-15:00 opening and keynote
-  - 15:15-15:45 session opening
+  - 14:00-15:00 opening and keynote (remote participation possible)
+  - 15:15-15:45 session opening (remote participation possible)
   - 15:45-17:00 parallel sessions (Metadata / Tools), part 1: collect background; define priorities and tasks
 - Thursday, 19 May 2022
   - 9:00-10:30 parallel sessions (Metadata / Tools), part 2: metadata specification; prepare and configure tools
@@ -45,6 +45,6 @@ The program is still preliminary and subject to change:
   - 17:00 social activity
   - 20:00 workshop dinner
 - Friday, 20 May 2022
-  - 9:00-11:00 joint session: wrapping up
-  - 11:00-11:50 reporting
-  - 11:50-12:00 closing
+  - 9:00-11:00 joint session: wrapping up (remote participation possible)
+  - 11:00-11:50 reporting (remote participation possible)
+  - 11:50-12:00 closing (remote participation possible)
