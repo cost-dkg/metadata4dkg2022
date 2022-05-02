@@ -28,6 +28,8 @@ accessible to physical participation.
 This event will be held as a workshop with physical participation at the Radisson Blu Hotel Lyon:
 129 Rue Servient, 69003 Lyon France, Lyon, France.
 
+The details for the remote participation will be shared here in due time.
+
 ## Program
 
 The program is still preliminary and subject to change:
