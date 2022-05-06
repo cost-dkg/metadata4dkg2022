@@ -14,7 +14,7 @@ All participants of our COST Action are invited to join this workshop, and we ar
 participants as well. If you would like to join, get in touch with Tobias Kuhn (t.kuhn@vu.nl), so
 we can send you an invitation via COST. COST covers travel and accomodation costs.
 
-The joint sessions on the first and last days can be followed remotely. All other sessions are only
+Some joint sessions on the first and last days can be followed remotely. All other sessions are only
 accessible to physical participation.
 
 ## Organizers
