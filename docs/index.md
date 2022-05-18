@@ -32,8 +32,6 @@ The details for the remote participation will be shared here in due time.
 
 ## Program
 
-The program is still preliminary and subject to change:
-
 - Wednesday, 18 May 2022
   - 12:00-14:00 lunch for those already present
   - 14:00-15:00 opening and keynote (remote participation possible via [Zoom](https://vu-live.zoom.us/j/96042420422?pwd=RTBZTHVjZldUZGROMUNDYm1ZTVpYZz09))
