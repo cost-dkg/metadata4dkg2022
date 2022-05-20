@@ -1,0 +1,54 @@
+@prefix this: <http://purl.org/np/RAGxZ5tL26QQ39bEQ-IjVj7ts5WZaJnBmm55FoBVW7y78> .
+@prefix sub: <http://purl.org/np/RAGxZ5tL26QQ39bEQ-IjVj7ts5WZaJnBmm55FoBVW7y78#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://lov.linkeddata.es/> dct:accessRights <https://schema.org/publicAccess>;
+    dct:description "LOV is the main catalog of vocabularies published and used on the Web. LOV provides a choice of several hundreds of such vocabularies, based on quality requirements including URI stability and availability on the Web, use of standard formats and publication best practices, quality metadata and documentation, identifiable and trustable publication body, proper versioning policy.";
+    dct:issued "2012-06-10";
+    dct:language "http://lexvo.org/id/iso639-3/eng";
+    dct:license <https://creativecommons.org/licenses/by/4.0/>;
+    dct:title "Linked Open Vocabularies";
+    pav:version "v2022.0520";
+    <http://rdfs.org/ns/void#vocabulary> <https://lov.linkeddata.es/dataset/lov/vocabs/vann>;
+    a <https://www.wikidata.org/entity/Q33002955>;
+    <http://www.w3.org/ns/dcat#distribution> <https://lov.linkeddata.es/lov.nq.gz>;
+    <http://www.w3.org/ns/dcat#keyword> "Metadata, IoT, API, RDF,Vocabularies,Geography,W3C REC, Health";
+    <http://www.w3.org/ns/dcat#theme> <http://www.wikidata.org/entity/Q324254>, <http://www.wikidata.org/entity/Q6499736>;
+    <http://www.w3.org/ns/sparql-service-description#endpoint> <https://lov.linkeddata.es/dataset/lov/sparql>;
+    <http://xmlns.com/foaf/0.1/depiction> <https://github.com/gatemezing/DKG22/blob/main/Capture%20d%E2%80%99e%CC%81cran%202022-05-20%20a%CC%80%2009.59.41.png>;
+    <https://schema.org/publication> <https://lov.linkeddata.es/dataset/lov/> .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0003-1562-6922 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC56LwPORXduSNIpAXInh3S42wxhUjsDQvuV1Ak7otzqWZXuVm7sz1VaM6czWZxjapfTy4ZVpptd9f0XMlqRNrdQThA5htfXLOkya4QpDoBVLf0Qb20f1d1LHtXvZ3B6uPkSzpPeyv7AAJ79o3JkDT7Ex+MtNZnFjhzygTfqcpS+wIDAQAB";
+    npx:hasSignature "ZuHjXrQ7A1V7vKema1l0GeYj3IYeXxzdBaVpy9iZt3ibzgt5BukPZ+kHXGqR2Fwl0uFuTh9cHHfLKjlnyohqV6UTHoxWns2t9hwsehtH1uUOHIgtmpviNcbvIKUxN5NfeAJrH4FCA0beFXrYhTH6iBwduHWWylNLRe5PzVS9Pag=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2022-05-20T10:13:15.573+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0003-1562-6922;
+    a npx:ExampleNanopub;
+    nt:wasCreatedFromProvenanceTemplate <http://purl.org/np/RANwQa4ICWS5SOjw7gp99nBpXBasapwtZF1fIM3H2gYTM>;
+    nt:wasCreatedFromPubinfoTemplate <http://purl.org/np/RA5gNHxO43rlquxhEeAvFs5OCms5eaumzn--jqUu6g5HA>,
+      <http://purl.org/np/RAA2MfqdBCzmz9yVWjKLXNbyfBNcwsMmOqcNUxkk1maIM>;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RA9M5jS_Wk2bFn-Q1yWrgPIxE_bHWyO5a9VeUpJv_9_iA> .
+}
