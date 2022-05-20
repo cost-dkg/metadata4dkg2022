@@ -1,0 +1,70 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 341,
+"labels": [
+          "Name"
+        ],
+"properties": {
+"image": " https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wikidata-logo-proposal-2s.png/180px-Wikidata-logo-proposal-2s.png",
+"name": "Wikidata",
+"description": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others. Wikidata also provides support to many other sites and services beyond just Wikimedia projects! The content of Wikidata is available under a free license, exported using standard formats, and can be interlinked to other open data sets on the linked data web.",
+"keyword": "General",
+"distribution": " https://www.wikidata.org/wiki/Wikidata:Database_download",
+"title": "Wikidata",
+"issued": "2022-05-16",
+"version": "2022-05-16"
+        }
+      },
+"end": {
+"identity": 336,
+"labels": [
+          "Creator"
+        ],
+"properties": {
+"name": "Wikimedia"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 341,
+"labels": [
+              "Name"
+            ],
+"properties": {
+"image": " https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wikidata-logo-proposal-2s.png/180px-Wikidata-logo-proposal-2s.png",
+"name": "Wikidata",
+"description": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others. Wikidata also provides support to many other sites and services beyond just Wikimedia projects! The content of Wikidata is available under a free license, exported using standard formats, and can be interlinked to other open data sets on the linked data web.",
+"keyword": "General",
+"distribution": " https://www.wikidata.org/wiki/Wikidata:Database_download",
+"title": "Wikidata",
+"issued": "2022-05-16",
+"version": "2022-05-16"
+            }
+          },
+          "relationship": {
+"identity": 419,
+"start": 341,
+"end": 336,
+"type": "creator",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 336,
+"labels": [
+              "Creator"
+            ],
+"properties": {
+"name": "Wikimedia"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  }
+]
