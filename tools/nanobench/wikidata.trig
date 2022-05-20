@@ -1,0 +1,54 @@
+@prefix this: <http://purl.org/np/RAtfJa2GNZXpsj2xBH9KzHXCu6toaqKY5qezzhJp1KuHc> .
+@prefix sub: <http://purl.org/np/RAtfJa2GNZXpsj2xBH9KzHXCu6toaqKY5qezzhJp1KuHc#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <https://www.wikidata.org/> dct:accessRights <https://schema.org/publicAccess>;
+    dct:description "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others.";
+    dct:issued "2022-05-16";
+    dct:language "de", "en", "zh";
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    dct:title "Wikidata knowledge graph";
+    pav:version "20220516";
+    <http://rdfs.org/ns/void#vocabulary> <https://www.wikidata.org/entity/Q2013>;
+    a <https://www.wikidata.org/entity/Q33002955>;
+    <http://www.w3.org/ns/dcat#distribution> <https://dumps.wikimedia.org/wikidatawiki/entities/20220516/wikidata-20220516-all-BETA.nt.gz>,
+      <https://dumps.wikimedia.org/wikidatawiki/entities/20220516/wikidata-20220516-all-BETA.ttl.gz>,
+      <https://dumps.wikimedia.org/wikidatawiki/entities/20220516/wikidata-20220516-all.json.gz>;
+    <http://www.w3.org/ns/dcat#keyword> "general";
+    <http://www.w3.org/ns/dcat#theme> <http://www.wikidata.org/entity/Q1>;
+    <http://www.w3.org/ns/sparql-service-description#endpoint> <https://query.wikidata.org/bigdata/namespace/wdq/sparql>;
+    <http://xmlns.com/foaf/0.1/page> <https://www.wikidata.org/wiki/Wikidata:Main_Page>;
+    <https://schema.org/publication> <https://doi.org/10.1145/2629489> .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-1267-0234 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwUtewGCpT5vIfXYE1bmf/Uqu1ojqnWdYxv+ySO80ul8Gu7m8KoyPAwuvaPj0lvPtHrg000qMmkxzKhYknEjq8v7EerxZNYp5B3/3+5ZpuWOYAs78UnQVjbHSmDdmryr4D4VvvNIiUmd0yxci47dTFUj4DvfHnGd6hVe5+goqdcwIDAQAB";
+    npx:hasSignature "KzdGSm8ePIWizIrb7D+Ty8q8kek1iulpJz1h7JkjOr7TbkzYEoOVFO4mIy+olgkuQ3q302fw//nks1zUB9xVTwNZcCzS6GXuoOfIztwOk0i5zXvmDhhmZoeYGdROsv5dFPGoxigKZ7/5T+KDSamlUzOqaO9jSD82GEf64oWAnrk=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2022-05-20T09:22:09.337+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-1267-0234;
+    nt:wasCreatedFromProvenanceTemplate <http://purl.org/np/RANwQa4ICWS5SOjw7gp99nBpXBasapwtZF1fIM3H2gYTM>;
+    nt:wasCreatedFromPubinfoTemplate <http://purl.org/np/RAA2MfqdBCzmz9yVWjKLXNbyfBNcwsMmOqcNUxkk1maIM>;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RA9M5jS_Wk2bFn-Q1yWrgPIxE_bHWyO5a9VeUpJv_9_iA> .
+}
