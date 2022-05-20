@@ -1,0 +1,51 @@
+
+DKG_COST_workshop metadata
+
+    Title
+    Wikidata
+    Description
+    Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others.
+    Homepage URL
+    https://www.wikidata.org/wiki/Wikidata:Main_Page  
+    Published Date
+    Sep 10, 2012
+    Vocabulary Used
+    https://www.wikidata.org/wiki/Wikidata:WikiProject_Ontology  
+    Meta Graph
+     
+    Distribution
+    https://dumps.wikimedia.org/wikidatawiki/  
+    Version
+    20220501
+    License
+    CC0 1.0
+    Keyword
+    open knowledge base
+    Language
+    UK English
+    Access Rights
+
+JSON-LD
+RDF
+
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C160186> <http://www.w3.org/2000/01/rdf-schema#label> "UK English" .
+<http://www.ebi.ac.uk/swo/license/SWO_1000049> <http://www.w3.org/2000/01/rdf-schema#label> "CC0 1.0" .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://open-services.net/ns/core#modifiedBy> <https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/dc/terms/description> "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.  Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others." .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/dc/terms/issued> "2012-09-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/dc/terms/language> <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C160186> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/dc/terms/license> <http://www.ebi.ac.uk/swo/license/SWO_1000049> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/dc/terms/title> "Wikidata" .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/pav/createdBy> <https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/pav/createdOn> "2022-05-20T01:05:44-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/pav/lastUpdatedOn> "2022-05-20T01:05:44-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://purl.org/pav/version> "20220501" .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://rdfs.org/ns/void/vocabulary> <https://www.wikidata.org/wiki/Wikidata:WikiProject_Ontology> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://schema.org/description> "" .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://schema.org/isBasedOn> <https://repo.metadatacenter.org/templates/7569b4a5-03a8-42c5-8209-784caf64b435> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://schema.org/name> "DKG_COST_workshop metadata" .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://www.w3.org/ns/dcat#distribution> <https://dumps.wikimedia.org/wikidatawiki/> .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://www.w3.org/ns/dcat#keyword> "open knowledge base" .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://xmlns.com/foaf/0.1/depiction> _:b0 .
+<https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718> <http://xmlns.com/foaf/0.1/page> <https://www.wikidata.org/wiki/Wikidata:Main_Page> .
+

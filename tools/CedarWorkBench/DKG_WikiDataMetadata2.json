@@ -1,0 +1,110 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "name": "http://schema.org/name",
+    "license": "http://schema.org/license",
+    "description": "http://schema.org/description",
+    "subjectOf": "http://schema.org/subjectOf",
+    "datePublished": "http://schema.org/datePublished",
+    "usesVocabulary": "http://www.w3.org/ns/rdfa#usesVocabulary",
+    "image": "http://schema.org/image",
+    "distribution": "http://schema.org/distribution",
+    "version": "http://schema.org/version",
+    "keywords": "http://schema.org/keywords",
+    "theme": "http://www.w3.org/ns/dcat#theme",
+    "language": "http://schema.org/language"
+  },
+  "name": [
+    {
+      "@value": "Wikidata"
+    }
+  ],
+  "license": {
+    "@value": "CC0"
+  },
+  "description": {
+    "@value": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others."
+  },
+  "subjectOf": {
+    "@id": "https://www.wikidata.org/wiki/Wikidata:Main_Page"
+  },
+  "datePublished": {
+    "@value": "2012-10-29T10:10:35-08:00",
+    "@type": "xsd:dateTime"
+  },
+  "usesVocabulary": [
+    {
+      "@id": "https://www.wikidata.org/wiki/Wikidata:WikiProject_Ontology"
+    }
+  ],
+  "image": {
+    "@id": "https://www.wikidata.org/"
+  },
+  "distribution": [
+    {
+      "@id": "https://dumps.wikimedia.org/wikidatawiki/"
+    }
+  ],
+  "version": {
+    "@value": "20220501/"
+  },
+  "keywords": [
+    {
+      "@value": "open knowledge base"
+    }
+  ],
+  "theme": {
+    "@id": "http://generalDataAboutOurUniverse.com"
+  },
+  "language": [
+    {
+      "@id": "https://iso639-3.sil.org/code/eng"
+    },
+    {
+      "@id": "https://en.wikipedia.org/wiki/English_language"
+    }
+  ],
+  "schema:isBasedOn": "https://repo.metadatacenter.org/templates/5f60c3e7-28dd-46b6-b2e8-96f41628c6e7",
+  "schema:name": "COST_WORKSHOP metadata",
+  "schema:description": "",
+  "pav:createdOn": "2022-05-20T01:33:10-07:00",
+  "pav:createdBy": "https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a",
+  "pav:lastUpdatedOn": "2022-05-20T01:33:10-07:00",
+  "oslc:modifiedBy": "https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a",
+  "@id": "https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5"
+}

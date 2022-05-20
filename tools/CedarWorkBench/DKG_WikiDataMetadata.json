@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "Title": "http://purl.org/dc/terms/title",
+    "Description": "http://purl.org/dc/terms/description",
+    "Homepage URL": "http://xmlns.com/foaf/0.1/page",
+    "Published Date": "http://purl.org/dc/terms/issued",
+    "Vocabulary Used": "http://rdfs.org/ns/void/vocabulary",
+    "Meta Graph": "http://xmlns.com/foaf/0.1/depiction",
+    "Distribution": "http://www.w3.org/ns/dcat#distribution",
+    "Version": "http://purl.org/pav/version",
+    "License": "http://purl.org/dc/terms/license",
+    "Keyword": "http://www.w3.org/ns/dcat#keyword",
+    "Language": "http://purl.org/dc/terms/language",
+    "Access Rights": "http://purl.org/dc/terms/accessRights"
+  },
+  "Title": {
+    "@value": "Wikidata"
+  },
+  "Description": {
+    "@value": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.  Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others."
+  },
+  "Homepage URL": {
+    "@id": "https://www.wikidata.org/wiki/Wikidata:Main_Page"
+  },
+  "Published Date": {
+    "@value": "2012-09-10",
+    "@type": "xsd:date"
+  },
+  "Vocabulary Used": {
+    "@id": "https://www.wikidata.org/wiki/Wikidata:WikiProject_Ontology"
+  },
+  "Meta Graph": {},
+  "Distribution": {
+    "@id": "https://dumps.wikimedia.org/wikidatawiki/"
+  },
+  "Version": {
+    "@value": "20220501"
+  },
+  "License": {
+    "@id": "http://www.ebi.ac.uk/swo/license/SWO_1000049",
+    "rdfs:label": "CC0 1.0"
+  },
+  "Keyword": {
+    "@value": "open knowledge base"
+  },
+  "Language": {
+    "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C160186",
+    "rdfs:label": "UK English"
+  },
+  "Access Rights": {
+    "@value": null
+  },
+  "schema:isBasedOn": "https://repo.metadatacenter.org/templates/7569b4a5-03a8-42c5-8209-784caf64b435",
+  "schema:name": "DKG_COST_workshop metadata",
+  "schema:description": "",
+  "pav:createdOn": "2022-05-20T01:05:44-07:00",
+  "pav:createdBy": "https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a",
+  "pav:lastUpdatedOn": "2022-05-20T01:05:44-07:00",
+  "oslc:modifiedBy": "https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a",
+  "@id": "https://repo.metadatacenter.org/template-instances/f0b08163-52f9-4932-8bc2-36047b9a3718"
+}

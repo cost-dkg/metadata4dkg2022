@@ -1,0 +1,23 @@
+
+
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://open-services.net/ns/core#modifiedBy> <https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://purl.org/pav/createdBy> <https://metadatacenter.org/users/70f45810-cad0-4267-956c-c2f4e417ee4a> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://purl.org/pav/createdOn> "2022-05-20T01:33:10-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://purl.org/pav/lastUpdatedOn> "2022-05-20T01:33:10-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/datePublished> "2012-10-29T10:10:35-08:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/description> "" .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/description> "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others." .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/distribution> <https://dumps.wikimedia.org/wikidatawiki/> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/image> <https://www.wikidata.org/> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/isBasedOn> <https://repo.metadatacenter.org/templates/5f60c3e7-28dd-46b6-b2e8-96f41628c6e7> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/keywords> "open knowledge base" .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/language> <https://en.wikipedia.org/wiki/English_language> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/language> <https://iso639-3.sil.org/code/eng> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/license> "CC0" .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/name> "COST_WORKSHOP metadata" .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/name> "Wikidata" .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/subjectOf> <https://www.wikidata.org/wiki/Wikidata:Main_Page> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://schema.org/version> "20220501/" .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://www.w3.org/ns/dcat#theme> <http://generalDataAboutOurUniverse.com> .
+<https://repo.metadatacenter.org/template-instances/09daba07-b484-4225-a592-7a6c66e902b5> <http://www.w3.org/ns/rdfa#usesVocabulary> <https://www.wikidata.org/wiki/Wikidata:WikiProject_Ontology> .
+
