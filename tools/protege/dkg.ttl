@@ -1,0 +1,309 @@
+@prefix : <http://data.cost-dkg.eu/metadata/wikidata#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix base: <http://data.cost-dkg.eu/metadata/wikidata#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix schema: <http://schema.org/> .
+@base <http://data.cost-dkg.eu/metadata/wikidata> .
+
+<http://data.cost-dkg.eu/metadata/wikidata> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/dc/terms/conformsTo
+dct:conformsTo rdf:type owl:ObjectProperty .
+
+
+###  http://purl.org/dc/terms/creator
+dct:creator rdf:type owl:ObjectProperty ;
+            owl:equivalentProperty schema:creator .
+
+
+###  http://purl.org/dc/terms/license
+dct:license rdf:type owl:ObjectProperty .
+
+
+###  http://rdfs.org/ns/void#exampleResource
+void:exampleResource rdf:type owl:ObjectProperty .
+
+
+###  http://rdfs.org/ns/void#sparqlEndpoint
+void:sparqlEndpoint rdf:type owl:ObjectProperty .
+
+
+###  http://rdfs.org/ns/void#vocabulary
+void:vocabulary rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/creator
+schema:creator rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/relatedLink
+schema:relatedLink rdf:type owl:ObjectProperty .
+
+
+###  http://schema.org/subjectOf
+schema:subjectOf rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/ns/dcat#compressFormat
+dcat:compressFormat rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/ns/dcat#distribution
+dcat:distribution rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/ns/dcat#downloadUrl
+dcat:downloadUrl rdf:type owl:ObjectProperty .
+
+
+###  http://www.w3.org/ns/dcat#mediaType
+dcat:mediaType rdf:type owl:ObjectProperty .
+
+
+###  http://xmlns.com/foaf/0.1/depiction
+foaf:depiction rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/dc/terms/accessRights
+dct:accessRights rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://purl.org/dc/terms/description
+dct:description rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://purl.org/dc/terms/identifier
+dct:identifier rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/dc/terms/issued
+dct:issued rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://purl.org/dc/terms/language
+dct:language rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://purl.org/dc/terms/license
+dct:license rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://purl.org/dc/terms/modified
+dct:modified rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://purl.org/dc/terms/title
+dct:title rdf:type owl:DatatypeProperty .
+
+
+###  http://purl.org/pav/createdOn
+pav:createdOn rdf:type owl:DatatypeProperty .
+
+
+###  http://rdfs.org/ns/void#uriRegexPattern
+void:uriRegexPattern rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://rdfs.org/ns/void#vocabulary
+void:vocabulary rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/dateCreated
+schema:dateCreated rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/dateModified
+schema:dateModified rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/datePublished
+schema:datePublished rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/description
+schema:description rdf:type owl:DatatypeProperty .
+
+
+###  http://schema.org/keywords
+schema:keywords rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/language
+schema:language rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/license
+schema:license rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/name
+schema:name rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/publication
+schema:publication rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://schema.org/version
+schema:version rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  http://www.w3.org/ns/dcat#byteSize
+dcat:byteSize rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/ns/dcat#keyword
+dcat:keyword rdf:type owl:DatatypeProperty .
+
+
+###  http://www.w3.org/ns/dcat#version
+dcat:version rdf:type owl:DatatypeProperty .
+
+
+###  http://xmlns.com/foaf/0.1/page
+foaf:page rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/dcat#Dataset
+dcat:Dataset rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/dcat#Distribution
+dcat:Distribution rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://data.cost-dkg.eu/metadata/wikidata#wikidataDistribution20220518
+base:wikidataDistribution20220518 rdf:type owl:NamedIndividual ,
+                                           dcat:Distribution ;
+                                  dcat:compressFormat <http://www.iana.org/assignments/media-types/application/gzip> ;
+                                  dcat:downloadUrl <https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz> ;
+                                  dcat:mediaType <http://www.iana.org/assignments/media-types/application/json> ;
+                                  dcat:byteSize "112204497210"^^xsd:nonNegativeInteger .
+
+
+###  http://data.cost-dkg.eu/metadata/wikidata#wikidataSchema20220518
+base:wikidataSchema20220518 rdf:type owl:NamedIndividual ,
+                                     dcat:Dataset ;
+                            dct:conformsTo <https://www.wikidata.org/wiki/EntitySchema:E1> ;
+                            dct:creator <https://www.wikidata.org/wiki/Q180> ;
+                            dct:license <https://creativecommons.org/share-your-work/public-domain/cc0> ;
+                            void:exampleResource <https://www.wikidata.org/wiki/Q1> ;
+                            void:sparqlEndpoint <https://query.wikidata.org/> ;
+                            void:vocabulary <http://www.wikidata.org/entity/> ,
+                                            <http://www.wikidata.org/prop/direct/> ,
+                                            <http://www.wikidata.org/value/> ;
+                            schema:relatedLink <https://www.wikidata.org/wiki/Wikidata:Database_download> ;
+                            dcat:distribution base:wikidataDistribution20220518 ;
+                            foaf:depiction <https://www.wikidata.org/wiki/Wikidata:Introduction#/media/File:Datamodel_in_Wikidata.svg> ;
+                            dct:description """Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.
+
+Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others."""@en ,
+                                            "http://www.wikidata.org"@en ;
+                            dct:identifier "wikidata20220518" ;
+                            dct:issued "2022-05-18T00:00:00"^^xsd:dateTime ;
+                            dct:modified "2022-05-18T18:48:00"^^xsd:dateTime ;
+                            dct:title "Wikidata"@en ;
+                            pav:createdOn "2012-10-29T00:00:00"^^xsd:dateTime ;
+                            void:uriRegexPattern "https://www.wikidata.org/wiki/Q{\\d+}" .
+
+
+###  http://www.iana.org/assignments/media-types/application/gzip
+<http://www.iana.org/assignments/media-types/application/gzip> rdf:type owl:NamedIndividual .
+
+
+###  http://www.iana.org/assignments/media-types/application/json
+<http://www.iana.org/assignments/media-types/application/json> rdf:type owl:NamedIndividual .
+
+
+###  http://www.wikidata.org/entity/
+<http://www.wikidata.org/entity/> rdf:type owl:NamedIndividual ;
+                                  rdfs:label "wd:" .
+
+
+###  http://www.wikidata.org/prop/direct/
+<http://www.wikidata.org/prop/direct/> rdf:type owl:NamedIndividual ;
+                                       rdfs:label "wdt:" .
+
+
+###  http://www.wikidata.org/value/
+<http://www.wikidata.org/value/> rdf:type owl:NamedIndividual ;
+                                 rdfs:label "wdv:" .
+
+
+###  https://creativecommons.org/share-your-work/public-domain/cc0
+<https://creativecommons.org/share-your-work/public-domain/cc0> rdf:type owl:NamedIndividual .
+
+
+###  https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz
+<https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz> rdf:type owl:NamedIndividual .
+
+
+###  https://query.wikidata.org/
+<https://query.wikidata.org/> rdf:type owl:NamedIndividual ;
+                              rdfs:label "Wikidata Query" .
+
+
+###  https://www.wikidata.org/wiki/Q1
+<https://www.wikidata.org/wiki/Q1> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q180
+<https://www.wikidata.org/wiki/Q180> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/EntitySchema:E1
+<https://www.wikidata.org/wiki/EntitySchema:E1> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Wikidata:Database_download
+<https://www.wikidata.org/wiki/Wikidata:Database_download> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Wikidata:Introduction#/media/File:Datamodel_in_Wikidata.svg
+<https://www.wikidata.org/wiki/Wikidata:Introduction#/media/File:Datamodel_in_Wikidata.svg> rdf:type owl:NamedIndividual ;
+                                                                                            rdfs:label "Datamodel in Wikidata" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

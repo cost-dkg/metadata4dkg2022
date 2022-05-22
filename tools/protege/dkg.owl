@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://data.cost-dkg.eu/metadata/wikidata#"
+     xml:base="http://data.cost-dkg.eu/metadata/wikidata"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:pav="http://purl.org/pav/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:base="http://data.cost-dkg.eu/metadata/wikidata#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:void="http://rdfs.org/ns/void#"
+     xmlns:schema="http://schema.org/">
+    <owl:Ontology rdf:about="http://data.cost-dkg.eu/metadata/wikidata"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/creator">
+        <owl:equivalentProperty rdf:resource="http://schema.org/creator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://rdfs.org/ns/void#exampleResource -->
+
+    <owl:ObjectProperty rdf:about="http://rdfs.org/ns/void#exampleResource"/>
+    
+
+
+    <!-- http://rdfs.org/ns/void#sparqlEndpoint -->
+
+    <owl:ObjectProperty rdf:about="http://rdfs.org/ns/void#sparqlEndpoint"/>
+    
+
+
+    <!-- http://rdfs.org/ns/void#vocabulary -->
+
+    <owl:ObjectProperty rdf:about="http://rdfs.org/ns/void#vocabulary"/>
+    
+
+
+    <!-- http://schema.org/creator -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/creator"/>
+    
+
+
+    <!-- http://schema.org/relatedLink -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/relatedLink"/>
+    
+
+
+    <!-- http://schema.org/subjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/subjectOf"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#compressFormat -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#compressFormat"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#distribution -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#distribution"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#downloadUrl -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#downloadUrl"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#mediaType -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#mediaType"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depiction"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/accessRights -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/accessRights">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/issued">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/language">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/modified">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/pav/createdOn -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/pav/createdOn"/>
+    
+
+
+    <!-- http://rdfs.org/ns/void#uriRegexPattern -->
+
+    <owl:DatatypeProperty rdf:about="http://rdfs.org/ns/void#uriRegexPattern">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rdfs.org/ns/void#vocabulary -->
+
+    <owl:DatatypeProperty rdf:about="http://rdfs.org/ns/void#vocabulary">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/dateCreated -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/dateCreated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/dateModified -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/dateModified">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/datePublished -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/datePublished">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/description -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/description"/>
+    
+
+
+    <!-- http://schema.org/keywords -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/keywords">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/language -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/language">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/license -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/license">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/name -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/publication -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/publication">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/version -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/version">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#byteSize -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/dcat#byteSize"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#keyword -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/dcat#keyword"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#version -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/dcat#version"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/page -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/page">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Dataset -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Dataset"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#Distribution -->
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#Distribution"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://data.cost-dkg.eu/metadata/wikidata#wikidataDistribution20220518 -->
+
+    <owl:NamedIndividual rdf:about="http://data.cost-dkg.eu/metadata/wikidata#wikidataDistribution20220518">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dcat:compressFormat rdf:resource="http://www.iana.org/assignments/media-types/application/gzip"/>
+        <dcat:downloadUrl rdf:resource="https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz"/>
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">112204497210</dcat:byteSize>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://data.cost-dkg.eu/metadata/wikidata#wikidataSchema20220518 -->
+
+    <owl:NamedIndividual rdf:about="http://data.cost-dkg.eu/metadata/wikidata#wikidataSchema20220518">
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+        <dct:conformsTo rdf:resource="https://www.wikidata.org/wiki/EntitySchema:E1"/>
+        <dct:creator rdf:resource="https://www.wikidata.org/wiki/Q180"/>
+        <dct:license rdf:resource="https://creativecommons.org/share-your-work/public-domain/cc0"/>
+        <void:exampleResource rdf:resource="https://www.wikidata.org/wiki/Q1"/>
+        <void:sparqlEndpoint rdf:resource="https://query.wikidata.org/"/>
+        <void:vocabulary rdf:resource="http://www.wikidata.org/entity/"/>
+        <void:vocabulary rdf:resource="http://www.wikidata.org/prop/direct/"/>
+        <void:vocabulary rdf:resource="http://www.wikidata.org/value/"/>
+        <schema:relatedLink rdf:resource="https://www.wikidata.org/wiki/Wikidata:Database_download"/>
+        <dcat:distribution rdf:resource="http://data.cost-dkg.eu/metadata/wikidata#wikidataDistribution20220518"/>
+        <foaf:depiction rdf:resource="https://www.wikidata.org/wiki/Wikidata:Introduction#/media/File:Datamodel_in_Wikidata.svg"/>
+        <dct:description xml:lang="en">Wikidata is a free and open knowledge base that can be read and edited by both humans and machines.
+
+Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others.</dct:description>
+        <dct:description xml:lang="en">http://www.wikidata.org</dct:description>
+        <dct:identifier>wikidata20220518</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-18T00:00:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-18T18:48:00</dct:modified>
+        <dct:title xml:lang="en">Wikidata</dct:title>
+        <pav:createdOn rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-10-29T00:00:00</pav:createdOn>
+        <void:uriRegexPattern>https://www.wikidata.org/wiki/Q{\d+}</void:uriRegexPattern>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.iana.org/assignments/media-types/application/gzip -->
+
+    <owl:NamedIndividual rdf:about="http://www.iana.org/assignments/media-types/application/gzip"/>
+    
+
+
+    <!-- http://www.iana.org/assignments/media-types/application/json -->
+
+    <owl:NamedIndividual rdf:about="http://www.iana.org/assignments/media-types/application/json"/>
+    
+
+
+    <!-- http://www.wikidata.org/entity/ -->
+
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/entity/">
+        <rdfs:label>wd:</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.wikidata.org/prop/direct/ -->
+
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/prop/direct/">
+        <rdfs:label>wdt:</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.wikidata.org/value/ -->
+
+    <owl:NamedIndividual rdf:about="http://www.wikidata.org/value/">
+        <rdfs:label>wdv:</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://creativecommons.org/share-your-work/public-domain/cc0 -->
+
+    <owl:NamedIndividual rdf:about="https://creativecommons.org/share-your-work/public-domain/cc0"/>
+    
+
+
+    <!-- https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz -->
+
+    <owl:NamedIndividual rdf:about="https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.gz"/>
+    
+
+
+    <!-- https://query.wikidata.org/ -->
+
+    <owl:NamedIndividual rdf:about="https://query.wikidata.org/">
+        <rdfs:label>Wikidata Query</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q180 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q180"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/EntitySchema:E1 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/EntitySchema:E1"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Wikidata:Database_download -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Wikidata:Database_download"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Wikidata:Introduction#/media/File:Datamodel_in_Wikidata.svg -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Wikidata:Introduction#/media/File:Datamodel_in_Wikidata.svg">
+        <rdfs:label>Datamodel in Wikidata</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
